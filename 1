@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <conio.h>
+
+# define g 10
+int main (void)
+{
+	float H;
+    float t;
+	float v;
+	printf ("H = ");
+	scanf_s ("%f", &H);
+
+	printf ("t = ");
+	scanf_s ("%f", &t);
+
+	v= (H/t) -(g*t/2);
+	printf ("starting speed = %f\n",v);
+	getch();
+	return 0;
+}
